@@ -30,10 +30,6 @@ const promotionSchema = new Schema(
     featured: {
       type: Boolean,
       default: false
-    },
-    label: {
-      type: String,
-      default: ""
     }
   },
   {
